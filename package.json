@@ -1,15 +1,24 @@
 {
-  "name": "bass-play-music-stramming-app",
+  "name": "music-web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^13.0.0",
-    "@testing-library/user-event": "^13.2.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.1",
+    "plyr-react": "^5.1.0",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-bootstrap-icons": "^1.8.4",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.35.0",
+    "react-player": "^2.10.1",
+    "react-router-dom": "6",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.0"
+    "react-search-autocomplete": "^7.2.2",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
