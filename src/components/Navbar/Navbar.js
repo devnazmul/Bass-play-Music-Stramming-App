@@ -17,7 +17,7 @@ export default function Navbar({setGlobalSearchTerm,setGlobalLoading,setGlobalSe
         url: 'https://shazam.p.rapidapi.com/auto-complete',
         params: {term: data.term, locale: 'en-US'},
         headers: {
-          'X-RapidAPI-Key': 'aa1221ee39msh79d9e0e4a9b8edap1fbbe8jsne685301197c6',
+          'X-RapidAPI-Key': process.env.REACT_APP_API_KEY,
           'X-RapidAPI-Host': 'shazam.p.rapidapi.com'
         }
       };

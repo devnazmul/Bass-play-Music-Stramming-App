@@ -28,9 +28,7 @@ export default function SIdebar() {
                         >
                             <Icon.Search className='me-3 fs-4 fw-bold' /> <span className='d-none d-md-block'>Search</span>
                         </NavLink>
-
                     </li>
-                    
                 </ul>
             </div>
             <div className='text-white d-column-flex  align-items-center justify-content-center'>
@@ -43,7 +41,6 @@ export default function SIdebar() {
                             <Icon.PlusSquareFill className='me-3 fs-4 fw-bold' /> <span className='d-none d-md-block '>Create Playlist</span>
                         </NavLink>
                     </li>
-                        
                     <li className={`${styles.routes} list-group-item my-4 fs-6  align-items-center  flex justify-content-centerv`}>
                         <NavLink
                             className={`${styles.navlink} d-flex`}

@@ -59,12 +59,10 @@ export default function Layout({ children, setGlobalSelected, globalAudioTrack, 
                                     >
                                         Create Playlist
                                     </NavLink>
-
                                 </div>
                             </div>
                         )
                     }
-
                 </div>
             </div>
         </div>
