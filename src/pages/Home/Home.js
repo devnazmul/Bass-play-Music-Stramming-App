@@ -58,7 +58,6 @@ export default function Home({ setGlobalAudioTrack }) {
                   </div>
               )
             }
-
           </div>
         </div>
       </div>
